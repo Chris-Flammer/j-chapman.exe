@@ -74,7 +74,7 @@ class Josh: Hipster {
         }
         
         
-        if input.contains("trump, utah, salt, lake, city, news, republican, diversity, inclusion") {
+        if input.contains("trump, salt, lake, news, republican, diversity, inclusion") {
             voiceTone = .morally_and_intellectually_superior_to_the_whole_world
             runSnideRemark(about: input)
         }
@@ -85,7 +85,7 @@ class Josh: Hipster {
     
     
     /*
-     The hipster eqivalent of a short moral sermon:  Twitter style.  API web service polls from current events randomly, and uses results to launch a left-leaning tirade.  If no results are returned from API web service.  Default to unfavorable remarks about Utah
+     The hipster eqivalent of a short moral sermon:  Twitter style.  API web service polls from current events randomly, and uses results to launch a left-leaning tirade.  If no results are returned from API web service, default to unfavorable remarks about Utah
  */
     func runSnideRemark(about: String) {
         // TODO: - IMPLEMENT
